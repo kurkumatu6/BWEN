@@ -1,0 +1,655 @@
+@font-face {
+  font-family: Bebas Neue;
+  src: url(fondfamilly/BebasNeueBold.woff);
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.aG {
+  color: #3c6d41;
+}
+
+.pG {
+  color: #3c6d41;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.imgG {
+  width: 200px;
+}
+.container {
+  background-image: url(/assets/images/glav.webp);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 90%;
+  height: 600px;
+
+  margin: auto;
+}
+.btnBooking {
+  width: 300px;
+  height: 50px;
+
+  font-size: large;
+
+  background-color: black;
+  border: black;
+  color: white;
+
+  right: 300px;
+  bottom: 330px;
+  position: absolute;
+}
+.btnBooking:hover {
+  background-color: #3c6d41c7;
+}
+
+.foreign {
+  text-shadow: #3c6d4142 -6px -15px 1px;
+
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.pButton {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border: none;
+}
+
+.nameCarsA {
+  margin-left: 100px;
+}
+
+.selectSearch {
+  width: 200px;
+  border: none;
+}
+.selectForm {
+  display: flex;
+  justify-content: space-between;
+}
+.foreignCars {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+}
+.nameCars {
+  display: flex;
+  flex-direction: row;
+  font-weight: 100;
+  flex-wrap: wrap;
+}
+
+.carPB {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+}
+.btnSearch {
+  background-color: #3c6d4183;
+  border: #3c6d4183;
+
+  border-radius: 7px;
+  width: 300px;
+  height: 32px;
+}
+.btnSearch2 {
+  background-color: #3c6d4183;
+  border: #3c6d4183;
+
+  border-radius: 7px;
+  width: 300px;
+  height: 32px;
+}
+.btnBooking2 {
+  background-color: #3c6d4183;
+  border: #3c6d4183;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+.namP {
+  margin-left: 150px;
+  margin-right: 56px;
+}
+.selectCars {
+  background-color: #e4e4e4;
+}
+
+/* ---------------- */
+
+.company {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  flex-wrap: wrap;
+}
+.wfioaefawe {
+  display: flex;
+}
+
+.imgLogoGreen {
+  width: 20px;
+  height: 50px;
+}
+.imgOfis {
+  max-width: 40%;
+
+  margin-left: auto;
+}
+.textP {
+  font-weight: 100;
+  text-align: justify;
+  width: 800px;
+}
+.logoBlack {
+  margin-top: 50px;
+}
+/* карусель */
+.carousel {
+  width: 1000px;
+  margin: auto;
+}
+.carImg {
+  object-fit: contain;
+  width: 700px;
+  height: 400px;
+}
+.carImg2 {
+  object-fit: contain;
+  width: 900px;
+  height: 470px;
+}
+.prev:hover,
+.next:hover {
+  background-color: #00000000;
+}
+/* полные характеристики автомобиля */
+.container-auto {
+  display: flex;
+  margin: 10px;
+}
+.pAuto {
+  text-align: justify;
+  padding: 5px;
+}
+.characteristics {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin-left: 30px;
+}
+.arrow {
+  margin-bottom: 10px;
+  padding-right: 8px;
+}
+.autoBody {
+  color: #3c6d41;
+}
+.new {
+  display: flex;
+  flex-direction: row;
+}
+.imgNew {
+  margin-top: 50px;
+  width: 30px;
+  height: 80px;
+}
+/* Контакты */
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.carta {
+  max-width: 100%;
+}
+.phonee {
+  display: flex;
+  flex-direction: row;
+}
+.address,
+.phone,
+.mail {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  margin-bottom: 45px;
+
+  padding-left: 20px;
+}
+.imgIcons {
+  margin-right: 30px;
+}
+
+.mar:hover {
+  color: #3c6d41;
+}
+
+/* авторизация/регистрация */
+
+.createForm {
+  margin: auto;
+  padding: 20px;
+}
+.createFormA {
+  width: 380px;
+  height: 400px;
+  margin: auto;
+  padding: 20px;
+}
+.createA {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  align-items: center;
+
+  padding: 25px;
+  border-radius: 45px;
+  background-color: white;
+  height: 350px;
+  flex-wrap: wrap;
+}
+.l,
+.lp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.l {
+  width: 400px;
+}
+.lp {
+  width: 290px;
+}
+
+.create,
+.createF,
+.bookingForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  align-items: center;
+
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 45px;
+  border-radius: 45px;
+  gap: 25px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.form-control {
+  width: 200px;
+}
+.button {
+  width: 300px;
+  height: 30px;
+  margin-top: 15px;
+  font-size: 1rem;
+  background-color: #3c6d41a6;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* Аэрография */
+.containerAir {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.text1 {
+  margin: 15px;
+  width: 60%;
+}
+.text2 {
+  margin: 15px;
+  width: 32%;
+}
+
+.pAir {
+  text-align: justify;
+}
+.h4Air {
+  margin-top: 20px;
+}
+.airZ {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.imgAir1 {
+  width: 100%;
+}
+.imgAir2 {
+  width: 100%;
+}
+.imgAir3 {
+  width: 100%;
+}
+.h3AirOb {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* Категория */
+.h1Brand {
+  padding-right: 200px;
+  margin-top: 20px;
+}
+.category {
+  padding-left: 200px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  font-size: 22px;
+  font-weight: 100;
+  text-align: justify;
+}
+.card-title {
+  text-decoration: none;
+}
+.card-title:hover {
+  color: #3c6d41;
+}
+.card-row {
+  display: flex;
+  flex-direction: row;
+}
+/* карточки */
+.container-autos {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e4e47e;
+
+  margin: 5px;
+  padding: 10px;
+}
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 0;
+}
+.autoImg {
+  width: 380px;
+  height: 300px;
+  object-fit: contain;
+}
+.rj {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.price {
+  font-size: larger;
+}
+
+/* АДМИНИСТРАТОР */
+.Admin-container {
+  display: flex;
+
+}
+.admin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.admin-p {
+  display: flex;
+}
+.model-container-admin {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+
+}
+.image-admin{
+  width: 300px;
+}
+.p-admin{
+  padding: 15px;
+}
+
+.auto {
+  width: 290px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+}
+.adminNodel {
+  display: flex;
+}
+.trash {
+  border: none;
+  background-color: #00000000;
+  color: red;
+}
+
+.aAdmin {
+  color: black;
+}
+.product-container-admin {
+  text-align: center;
+}
+.role-container-admin {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.p-role{
+  display: flex;
+}
+.addAutos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+td {
+  padding: 15px;
+}
+th {
+  padding: 15px;
+}
+.admin-autos-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* бронирование */
+.bookingForm {
+  display: flex;
+
+  width: 400px;
+  background-color: #e4e4e49c;
+  margin: auto;
+}
+.bookingTime {
+  display: flex;
+  flex-direction: column;
+
+  border: none;
+  width: 300px;
+}
+.bbok {
+  background-color: white;
+  border: none;
+  width: 200px;
+}
+.bookImg {
+  background-color: white;
+  color: #e4e4e4;
+
+  border-radius: 40%;
+}
+.lbook {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+/* профиль */
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-color: #e4e4e46b;
+}
+.createP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: auto;
+  width: 300px;
+  margin: 10px;
+}
+.btnSearch3 {
+  background-color: #3c6d4183;
+  border: #3c6d4183;
+
+  border-radius: 7px;
+  width: 200px;
+  height: 32px;
+}
+
+.imgProfile {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.inModels {
+  display: flex;
+}
+.inModelsAuto {
+  display: flex;
+  flex-wrap: wrap;
+
+  font-size: 16px;
+}
+
+.model {
+  width: 400px;
+  padding-left: 50px;
+  text-align: left;
+}
+.price {
+  width: 350px;
+  text-align: left;
+}
+.xarak {
+  width: 500px;
+  padding-right: 50px;
+}
+
+.createSelect {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+}
+.buttonModels {
+  width: 820px;
+  font-size: 1rem;
+  background-color: #3c6d41a6;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.update {
+  color: black;
+  text-decoration: none;
+}
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.aLogo {
+  width: 200px;
+}
+/* роли */
+.conteiner-role{
+  display: flex;
+
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  text-align: justify;
+  border: #3c6d413a 1px solid;
+}
+.table{
+  width: 80%;
+  margin-left: 40px;
+}
+@media (max-device-width: 1024px) {
+  .container {
+  background-image: url(/assets/images/fon-phone.png);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+.phone-glav {
+  background-image: url(/assets/images/glav-phone.png);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10px;
+  height: 100px;
+}
+.btnBooking {
+  display: none;
+}
+}

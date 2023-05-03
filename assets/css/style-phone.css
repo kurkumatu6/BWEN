@@ -1,0 +1,168 @@
+@media (max-device-width: 480px) {
+  body {
+    margin: 0;
+    padding: 5px;
+  }
+  .container {
+    background-image: url(/assets/images/fon-phone.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+  .carta {
+    padding-left: 20px;
+    width: 370px;
+  }
+  .btnBooking {
+    display: none;
+  }
+  .phone-glav {
+    background-image: url(/assets/images/glav-phone.png);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    height: 50px;
+  }
+  .textP {
+    font-weight: 100;
+    text-align: justify;
+    width: 350px;
+  }
+  .imgOfis {
+    max-width: 300px;
+    margin-left: auto;
+    margin: 0;
+  }
+  .company {
+    padding-left: 30px;
+  }
+  .aLogo {
+    margin-left: 90px;
+  }
+  a {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
+  .selectForm {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+  }
+  .selectSearch {
+    width: 45px;
+  }
+  .logoBlack {
+    width: 85px;
+    height: 300px;
+  }
+  .category {
+    padding-left: 0px;
+  }
+  .btnSearch {
+    background-color: #3c6d4183;
+    border: #3c6d4183;
+
+    border-radius: 7px;
+    width: 200px;
+    height: 32px;
+  }
+  /* Аэрография */
+  .text1 {
+    margin: 15px;
+    width: 100%;
+  }
+  .text2 {
+    margin: 15px;
+    width: 100%;
+  }
+  .carImg {
+    object-fit: contain;
+    width: 350px;
+  }
+  .container-auto {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+  .btnSearch2 {
+    width: 350px;
+  }
+  .btnSearch3 {
+    background-color: #3c6d4183;
+    border: #3c6d4183;
+  
+    border-radius: 7px;
+    width: 200px;
+    height: 32px;
+  }
+  .bookingForm {
+    display: flex;
+
+    width: 350px;
+    background-color: #e4e4e49c;
+    margin: auto;
+  }
+  .create,
+  .createF,
+  .bookingForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0px;
+    border-radius: 0px;
+    gap: 25px;
+    background-color: white;
+    flex-wrap: wrap;
+  }
+  .form-control {
+    width: 150px;
+  }
+  .l {
+    width: 300px;
+  }
+  .admin-autos-container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Admin-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  .nameModels{
+    display: flex;
+  }
+  .admin{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .admin-p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+  }
+  .image-admin{
+    width: 350px;
+  }
+  .p-admin{
+    text-align: justify;
+  }
+  .role-container-admin {
+    margin: auto;
+  }
+
+  .table{
+    margin-left: 0px;
+  }
+}
